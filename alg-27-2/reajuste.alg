@@ -1,8 +1,8 @@
 algoritmo "reajuste salario"
-// Função : reajustar o salario do usuario em 10%
+// FunÃ§Ã£o : reajustar o salario do usuario
 // Autor : Igor De Jesus Silva
 // Data : 27/02/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 user: caractere
 asalario, nsalario,porcentagem: real
@@ -16,6 +16,6 @@ leia(porcentagem)
 limpatela
 escreval("Reajustando seu salario")
 nsalario <- asalario * ((porcentagem+100)/100)
-escreval("Ola ",user," seu novo salario será:",nsalario)
-// Seção de Comandos 
+escreval("Ola ",user," seu novo salario serÃ¡:",nsalario)
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
