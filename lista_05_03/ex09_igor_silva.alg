@@ -1,15 +1,15 @@
 algoritmo "camisas"
-// FunÁ„o :  Uma f·brica de camisetas produz os tamanhos pequeno, mÈdio e grande, cada uma sendo
-// vendida respectivamente por 10, 12 e 15 reais. Construa um algoritmo em que o usu·rio
-// forneÁa a quantidade de camisetas pequenas, mÈdias e grandes referentes a uma venda, e a
-// m·quina informe quanto ser· o valor arrecadado.
+// Fun√ß√£o :  Uma f√°brica de camisetas produz os tamanhos pequeno, m√©dio e grande, cada uma sendo
+// vendida respectivamente por 10, 12 e 15 reais. Construa um algoritmo em que o usu√°rio
+// forne√ßa a quantidade de camisetas pequenas, m√©dias e grandes referentes a uma venda, e a
+// m√°quina informe quanto ser√° o valor arrecadado.
 // Autor : Igor De Jesus Silva
 // Data : 05/03/2024
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
 qtd_p, qtd_m, qtd_g, total: real
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 escreval("calcular o total da compra")
 escreval("-")
 escreval("Digite a quantidade de camisas pequenas")
@@ -24,5 +24,5 @@ escreval("-")
 
 total <- (qtd_p*10)+ (qtd_m*12) + (qtd_g*15)
 
-escreval("O total da compra È R$",total)
+escreval("O total da compra √© R$",total)
 fimalgoritmo
