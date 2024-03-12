@@ -1,17 +1,17 @@
 algoritmo "haras"
-// FunÁ„o :  FaÁa um algoritmo para calcular quantas ferraduras s„o necess·rias para equipar todos os cavalos comprados para um haras.
+// Fun√ß√£o :  Fa√ßa um algoritmo para calcular quantas ferraduras s√£o necess√°rias para equipar todos os cavalos comprados para um haras.
 // Autor : Igor De Jesus Silva
 // Data : 05/03/2024
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 cavalos, total: real
 inicio
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 escreval("Bem-Vindo ao haras!")
 escreval("Vamos calcular a quantidade de ferraduras")
 escreval("Agora digite a quantidade de cavalos:")
 leia(cavalos)
 escreval("Ok")
 total <- cavalos * 4
-escreval("na compra de ",cavalos, " cavalos a quantidade de ferraduras necessarias È de ",total," ferraduras")
+escreval("na compra de ",cavalos, " cavalos a quantidade de ferraduras necessarias √© de ",total," ferraduras")
 fimalgoritmo
