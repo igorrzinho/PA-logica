@@ -1,14 +1,14 @@
 algoritmo "media"
-// Função : Faça um algoritmo para ler três notas de um aluno em uma disciplina e imprimir a sua média
-// ponderada (as notas têm pesos respectivos de 1, 2 e 3).
+// FunÃ§Ã£o : FaÃ§a um algoritmo para ler trÃªs notas de um aluno em uma disciplina e imprimir a sua mÃ©dia
+// ponderada (as notas tÃªm pesos respectivos de 1, 2 e 3).
 // Autor : Igor De Jesus Silva
 // Data : 05/03/2024
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 nome: caractere
 nota1, nota2, nota3,media: real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval("calcular a media do aluno com 3 notas")
 escreval("-")
 escreval("Digite o nome do aluno")
@@ -30,6 +30,6 @@ timer(1000)
 limpatela
 timer(0)
 escreval("considerando as notas:")
-escreval("A media do aluno ", nome," é:", media)
+escreval("A media do aluno ", nome," Ã©:", media)
 fimalgoritmo
 
