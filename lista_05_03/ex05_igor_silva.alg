@@ -1,17 +1,17 @@
 algoritmo "quantia de litros de gasolina"
-// Função :. Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para
-// ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu
+// FunÃ§Ã£o :. Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para
+// ler o preÃ§o do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu
 // colocar no tanque.
 // Autor : Igor de Jesus Silva
 // Data : 05/03/2024
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 qtd_litros, preco, pagamento: real
 nome: caracter
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval("Ola!")
-escreval("Qual o preço do litro da gasolina?")
+escreval("Qual o preÃ§o do litro da gasolina?")
 leia(preco)
 escreval("Qual o valoor do pagamento?")
 leia(pagamento)
