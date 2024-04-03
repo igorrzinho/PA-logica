@@ -1,4 +1,4 @@
-algoritmo "exercicio_06_aula06"
+algoritmo "semnome"
 // Função :  O posto de atendimento médico e hospitalar de uma pequena cidade atende em
 //média 138 pessoas por dia e vem observando, ao longo do tempo, que os casos
 //de pessoas com problemas de sobrepeso vêm aumentando a cada ano. Assim, o
