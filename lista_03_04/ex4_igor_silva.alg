@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :   Faça um programa que recebe três notas de um aluno, calcule e mostre a média
-// aritmética e a mensagem que segue a tabela abaixo. Para alunos de exame,
-// calcule e mostre a nota que deverá ser tirada no exame para aprovação,
-// considerando que a média no exame é 6,0.
+// FunÃ§Ã£o :   FaÃ§a um programa que recebe trÃªs notas de um aluno, calcule e mostre a mÃ©dia
+// aritmÃ©tica e a mensagem que segue a tabela abaixo. Para alunos de exame,
+// calcule e mostre a nota que deverÃ¡ ser tirada no exame para aprovaÃ§Ã£o,
+// considerando que a mÃ©dia no exame Ã© 6,0.
 //      |------------------------------|
 //      | media aritmerica | Mensagem  |
 //      | 0,0 a 3,0        | reprovado |
@@ -11,13 +11,13 @@ algoritmo "semnome"
 //      |------------------------------|
 // Autor : Igor De Jesus Silva
 // Data : 02/04/2024
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    n1,n2,n3, n4, aux, media: real
    sit : caractere
    exa : logico
 inicio
-   // Seção de Comandos
+   // SeÃ§Ã£o de Comandos
    escreval("escreva a primeira nota")
    leia(n1)
    escreval("escreva a segunda nota")
@@ -27,7 +27,7 @@ inicio
    media <- (n1+ n2+n3)/3
    escreval("sua media foi:", media )
    se (media < 3) entao
-      sit <- "reporovado"
+      sit <- "reprovado"
    fimse
    se ((media >= 3) e (media < 7)) entao
       escreval("voce esta de exame")
